@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+button.normal {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#diff h2 {
+    text-align: center;
+    color: rgb(207, 81, 81);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sudoko {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 80px;
+    background: #465b52;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #465b52;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+#sudoko img {
+    filter: grayscale(2);
+}
+
+#four {
+    margin-left: 370px;
+}
+
+#nine {
+    margin-right: 370px;
+    margin-left: 50px;
+}
+
+#sixteen {
+    margin-right: 50px;
+}
+
+#happy {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 141, 184);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    margin-top: 30px;
+}
+
+#container h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#solve-button {
+    color: #fff;
+    margin-right: 30px;
+    background-color: rgb(186, 58, 77);
+}
+
+#clear-button {
+    color: #fff;
+    background-color: rgb(60, 187, 62);
+}
+
+#bottom_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+}
+
+#home_page {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 141, 184);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
