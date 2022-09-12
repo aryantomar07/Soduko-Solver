@@ -1,6 +1,6 @@
 # Sudoku-Solver
 ![127 0 0 1_5501_base html_](https://user-images.githubusercontent.com/97346974/189608713-846cc4b7-42db-439d-a9aa-610e74e2c743.png)
-A Sudoku Solver
+A Sudoku Solver, where you can partially fill the Sudoku and it will give a complete anwer of the puzzle.
 ## 9X9 Sudoku
 ### Rules : 
 1. Each row must contain the numbers from 1 to 9, without repetitions
